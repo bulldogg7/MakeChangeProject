@@ -8,3 +8,8 @@
 	- Sublime
 	- Git/GitHub
 	- MacOS Terminal
+
+## Lessons Learned
+	- Always commit
+
+## Changes Made
