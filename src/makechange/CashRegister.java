@@ -37,7 +37,8 @@ public class CashRegister {
 				if (cashReceived == itemPrice) {
 					System.out.println("No Change Needed");
 				} else if (cashReceived < itemPrice) {
-					System.out.println("More Cash Needed");
+					System.out.println("-----------------");
+					System.out.println("Cash Short: -$" + (twoDecimals.format((cashReceived - itemPrice)*-1)));
 				} else if (cashReceived > itemPrice) {
 					double change = cashReceived - itemPrice;
 					

@@ -23,3 +23,4 @@
 	- Changed bill and coin amounts to remove the .0
 	- Fixed some cases where the ones were not calculating correctly
 	- Refined User Experience with verbiage and formatting
+	- Added "Cash Short" with negative amount showing instead of just stating that more cash is needed
