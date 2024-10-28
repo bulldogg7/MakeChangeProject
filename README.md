@@ -2,8 +2,8 @@
 
 ## Description
 	- Create a cash register program to input an item price and cash tendered from the customer. 
-	Calculate the change due and the bills and coins to return to the customer. 
-	Make it so that it repeats so that once a transaction is completed it will take another transaction.
+	- Calculate the change due and the bills and coins to return to the customer. 
+	- Make it so that it repeats so that once a transaction is completed it will take another transaction.
 
 ## Technologies Used
 	- Java
