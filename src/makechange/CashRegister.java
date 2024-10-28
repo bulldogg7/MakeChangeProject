@@ -36,32 +36,34 @@ public class CashRegister {
 				// Calculate change, no change, or more cash needed
 				if (cashReceived == itemPrice) {
 					System.out.println("No Change Needed");
+					System.out.println();
 				} else if (cashReceived < itemPrice) {
 					System.out.println("-----------------");
 					System.out.println("Cash Short: -$" + (twoDecimals.format((cashReceived - itemPrice)*-1)));
+					System.out.println();
 				} else if (cashReceived > itemPrice) {
 					double change = cashReceived - itemPrice;
 					
 					// Convert cash to pennies
 					double changeDue = change * 100;
 					double hundreds = changeDue/10000;
-					changeDue = changeDue % 10000;
+					changeDue %= 10000;
 					double fifties = changeDue/5000;
-					changeDue = changeDue % 5000;
+					changeDue %= 5000;
 					double twenties = changeDue/2000;
-					changeDue = changeDue % 2000;
+					changeDue %= 2000;
 					double tens = changeDue/1000;
-					changeDue = changeDue % 1000;
+					changeDue %= 1000;
 					double fives = changeDue/500;
-					changeDue = changeDue % 500;
+					changeDue %= 500;
 					double ones = changeDue/100;
-					changeDue = changeDue % 100;
+					changeDue %= 100;
 					double quarters = changeDue/25;
-					changeDue = changeDue % 25;
+					changeDue %= 25;
 					double dimes = changeDue/10;
-					changeDue = changeDue % 10;
+					changeDue %= 10;
 					double nickels = changeDue/5;
-					changeDue = changeDue % 5;
+					changeDue %= 5;
 					double pennies = changeDue;
 					
 					System.out.println("-----------------");
