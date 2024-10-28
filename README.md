@@ -21,3 +21,5 @@
 	- Changed the input instruction to enter a number with a decimal so that if they 
 	enter a whole number of cash received (100, 80, 50, 20, etc.) then it will add .00
 	- Changed bill and coin amounts to remove the .0
+	- Fixed some cases where the ones were not calculating correctly
+	- Refined User Experience with verbiage and formatting

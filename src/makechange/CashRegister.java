@@ -86,7 +86,7 @@ public class CashRegister {
 					} if (fives >= 1) {
 						fives = Math.round(fives * 100)/100;
 						System.out.println(noDecimals.format(fives) + " Fives");						
-					} if (ones <= 9 && ones > 1) {
+					} if (ones >= 1) {
 						ones = Math.round(ones * 100)/100;
 						System.out.println(noDecimals.format(ones) + " Ones");
 					} if (quarters >= 1) {
